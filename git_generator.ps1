@@ -7,7 +7,7 @@ $commit_msg = $verb + " " + $adjective + " " + $noun
 # Generate a random string
 $length = Get-Random -Minimum 6 -Maximum 18
 $chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
-$randomString = -join ((Get-Random -Count $length -InputObject $chars.ToCharArray())) + '`n'
+$randomString = -join ((Get-Random -Count $length -InputObject $chars.ToCharArray())) + "`n"
 
 # Append the random string to a file
 Add-Content -Path "RandomStrings.txt" -Value $randomString
