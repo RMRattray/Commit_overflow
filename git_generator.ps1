@@ -14,5 +14,4 @@ Add-Content -Path "RandomStrings.txt" -Value $randomString
 
 git add RandomStrings.txt 
 git commit -m $commit_msg
-
-# https://open.spotify.com/track/7uWFUpGuEfmxYeymkV95jn?si=5bf8dbe3b08043f8
+git push
