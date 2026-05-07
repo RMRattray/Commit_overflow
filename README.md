@@ -14,8 +14,10 @@ Then, if the local execution policy (for the user and the local machine) are set
 to `Remote-Signed` (or anything less restrictive), the script can be run from the 
 command line similar to an executable.
 
-The script can be set to run on startup or login, thus guaranteeing a Git commit
-every day, which can be used to fulfill a New Year's resolution or a challenge that
+The script can be set to run on startup or login, as it was from 1 April 2025
+to 7 May 2026, thus guaranteeing a Git commit
+every day that one merely logs in, 
+which can be used to fulfill a New Year's resolution or a challenge that
 was originally intended to get one learning or working on projects.  Using it in
 this fashion is a demonstration of Goodhart's Law, that when a metric becomes a 
 target it is no longer a useful metric.
